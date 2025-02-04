@@ -10,7 +10,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 
 - ### [Download Now](https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) 📁
 
-<h2> Software & Technologies  Used</h2>
+<h2> The Software & Applications I Used</h2>
 
 - Windows 10 (Build 19044)
 - Microsoft Azure (Virtual Machines)
@@ -29,14 +29,14 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <h3 align="center">Create Virtual Machine in Azure</h3>
 <br />
 <p>
-<h3 align="center">First, start by creating a Resource Group inside Azure.</h3>
+<h3 align="center">Now lets get started, We begin by creating a Resource Group inside Azure.</h3>
 <br />
 </p>
 <p>
 	<img src="https://i.imgur.com/eBi5k2l.png" height="75%" width="100%" />
 </p>
 <p>
-<h3 align="center">Now, create a Windows 10 Virtual Machine (VM), typically with 2-4 Virtual CPUs. For username and password, it can be anything as we'll be using this info to remote in with our main computer. When creating the Virtual Machine (VM), allow Azure to create a new Virtual Network (Vnet):</h3>
+<h3 align="center">Now, let's create a Windows 10 Virtual Machine, typically with around 2-4 Virtual CPUs (so it can perform decently enough for the project). For username and password, it can be anything as we'll mostly be using this info to remotely access our main computer. When creating the Virtual Machine, allow Azure to create a new Virtual Network (Commonly Referred as a Vnet):</h3>
 <br />
 </p>
 <p>
@@ -44,7 +44,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 </p>
 <br />
 <br />
-<h3 align="center">Open your Remote Desktop Connection app on your computer and connect to your Virtual Machine that was created in Azure. </h3>
+<h3 align="center">Open your Remote Desktop Connection app on your Computer (not VM)  and connect to your Virtual Machine that was created in Azure. (now me i personally downloaded the SFG files and did it that way but there are other methods) </h3>
 <br />
 <p>
 	<img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/2e71fd86-4198-47aa-aa1a-d0aed1b8e0eb"/>
@@ -60,7 +60,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 </p>
 <br />
 <br />
-<h3 align="center">Once clicked, find the "Internet Information Services" expand it and then expand the "World Wide Web" tab. Afterward, expand the application Developer tab. Finally check the "CGI" button & press Ok. You will need CGI to download the PHP Manager. The PHP manager is a back-end web programming language that allows osTicket to run off a web browser.</h3>
+<h3 align="center">Once selecteed, find the "Internet Information Services" expand it and then expand the "World Wide Web" tab. Afterward, expand the application Developer tab. Finally check the "CGI" button & press the "Ok" button. You will need CGI to download the PHP Manager. The PHP manager is a back-end web programming language that allows osTicket to run off a web browser.</h3>
 <br />
 <p>
   <img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/a6af9c35-e10c-4d7e-b2c8-30ffbe128f08" height="75%" width="100%"/>
@@ -287,4 +287,4 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 </p>
 <br />
 <br />
-<h3 align="center"> Congrats, You've Finished Installing osTicket.</h3>
+<h3 align="center"> Congratulations, You've Finished Installing osTicket. Lets move on to the next steps</h3>
